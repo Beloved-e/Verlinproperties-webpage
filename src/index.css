@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    color: #111111;
+    background-color: #fafafa;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -0.02em;
+  }
+}
+
+/* Custom Brand Accents */
+.btn-glossy-red {
+  background: linear-gradient(180deg, #E01333 0%, #C8102E 55%, #A50B22 100%);
+  box-shadow: 0 4px 15px rgba(200, 16, 46, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.25);
+  color: #ffffff;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.btn-glossy-red:hover {
+  background: linear-gradient(180deg, #EB1E3E 0%, #D41232 55%, #B30C25 100%);
+  box-shadow: 0 6px 20px rgba(200, 16, 46, 0.42), inset 0 1px 0 rgba(255, 255, 255, 0.3);
+  transform: translateY(-1px);
+}
+.btn-glossy-red:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 8px rgba(200, 16, 46, 0.3);
+}
+
+.price-tag-glossy {
+  background: linear-gradient(135deg, #DE1232 0%, #C8102E 60%, #9C091F 100%);
+  box-shadow: 0 3px 10px rgba(200, 16, 46, 0.3), inset 0 1px 1px rgba(255, 255, 255, 0.3);
+}
+
+.badge-gold {
+  background: linear-gradient(135deg, #FEF08A 0%, #EAB308 50%, #B45309 100%);
+  box-shadow: 0 4px 12px rgba(234, 179, 8, 0.35), inset 0 1px 1px rgba(255, 255, 255, 0.6);
+}
+

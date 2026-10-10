@@ -1,0 +1,6 @@
+{
+  "name": "Verlin Properties - Real Estate & Investment",
+  "description": "Official web application for Verlin Properties Limited. Verified dry land, estates across Rivers State, instant plot calculator, inspection booking, and Google Apps Script + Google Sheets backend.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
